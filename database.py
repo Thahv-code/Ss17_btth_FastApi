@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker, declarative_base
 from sqlalchemy import create_engine
 
-DB_URL = "mysql+pymysql://root:tuyen111273@localhost:3306/logistics_db"
+DB_URL = "mysql+pymysql://root:Thanh2106@localhost:3306/logistics_db"
 
 engine = create_engine(DB_URL)
 Base = declarative_base()
